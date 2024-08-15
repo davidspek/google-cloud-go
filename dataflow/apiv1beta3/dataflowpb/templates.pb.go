@@ -132,6 +132,8 @@ const (
 	SDKInfo_JAVA SDKInfo_Language = 1
 	// Python.
 	SDKInfo_PYTHON SDKInfo_Language = 2
+	// Gp.
+	SDKInfo_GO SDKInfo_Language = 3
 )
 
 // Enum value maps for SDKInfo_Language.
@@ -140,11 +142,13 @@ var (
 		0: "UNKNOWN",
 		1: "JAVA",
 		2: "PYTHON",
+		3: "GO",
 	}
 	SDKInfo_Language_value = map[string]int32{
 		"UNKNOWN": 0,
 		"JAVA":    1,
 		"PYTHON":  2,
+		"GO":      3,
 	}
 )
 
